@@ -1,0 +1,26 @@
+{
+  "name": "local-audio-workbench",
+  "version": "0.1.0",
+  "description": "A local macOS audio conversion web app for personal, unencrypted audio files.",
+  "type": "module",
+  "bin": {
+    "local-audio-workbench": "./src/server.js",
+    "law": "./src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "doctor": "node src/server.js --doctor"
+  },
+  "keywords": [
+    "audio",
+    "converter",
+    "ffmpeg",
+    "macos",
+    "local-first",
+    "music"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
