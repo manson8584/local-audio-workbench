@@ -1,5 +1,5 @@
 
-#!/usr/bin/env node
+
 import { createServer } from "node:http";
 import { spawn, spawnSync } from "node:child_process";
 import { mkdir, readdir, stat } from "node:fs/promises";
